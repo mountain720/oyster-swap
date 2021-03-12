@@ -11,7 +11,7 @@ import {
   PoolOperation,
 } from "./pools";
 import { useMint, useAccountByMint } from "./accounts";
-import { MintInfo } from "@solana/spl-token";
+import { MintInfo } from "@safecoin/spl-token";
 import { useConnection, useConnectionConfig } from "./connection";
 import {
   CurveType,
@@ -22,7 +22,7 @@ import {
 import { convert, getTokenIcon, getTokenName } from "./utils";
 import { useHistory, useLocation } from "react-router-dom";
 import bs58 from "bs58";
-import { TokenInfo } from "@solana/spl-token-registry";
+import { TokenInfo } from "@safecoin/spl-token-registry";
 
 export interface CurrencyContextState {
   mintAddress: string;
