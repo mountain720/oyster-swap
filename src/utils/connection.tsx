@@ -5,7 +5,7 @@ import {
   Connection,
   Transaction,
   TransactionInstruction,
-} from "@solana/web3.js";
+} from "@safecoin/web3.js";
 import React, { useContext, useEffect, useMemo, useState } from "react";
 import { setProgramIds } from "./ids";
 import { notify } from "./notifications";
@@ -14,7 +14,7 @@ import {
   TokenListProvider,
   ENV as ChainID,
   TokenInfo,
-} from "@solana/spl-token-registry";
+} from "@safecoin/spl-token-registry";
 
 export type ENV = "mainnet-beta" | "testnet" | "devnet" | "localnet";
 
