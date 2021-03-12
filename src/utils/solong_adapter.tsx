@@ -1,5 +1,5 @@
 import EventEmitter from "eventemitter3";
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 import { notify } from "./notifications";
 
 export class SolongAdapter extends EventEmitter {
