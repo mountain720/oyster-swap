@@ -1,7 +1,7 @@
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 import { TokenSwapLayout, TokenSwapLayoutV1 } from "../models";
 
-export const WRAPPED_SOL_MINT = new PublicKey(
+export const WRAPPED_SAFE_MINT = new PublicKey(
   "So11111111111111111111111111111111111111112"
 );
 let TOKEN_PROGRAM_ID = new PublicKey(
