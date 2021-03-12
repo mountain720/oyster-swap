@@ -11,7 +11,7 @@ import {
 import "./styles.less";
 import { useConnectionConfig } from "../../utils/connection";
 import { PoolIcon, TokenIcon } from "../tokenIcon";
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 import { PoolInfo, TokenAccount } from "../../models";
 
 const { Option } = Select;
