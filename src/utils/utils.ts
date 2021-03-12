@@ -1,8 +1,8 @@
 import { useCallback, useState } from "react";
-import { MintInfo } from "@solana/spl-token";
+import { MintInfo } from "@safecoin/spl-token";
 
 import { PoolInfo, TokenAccount } from "./../models";
-import { TokenInfo } from "@solana/spl-token-registry";
+import { TokenInfo } from "@safecoin/spl-token-registry";
 
 export type KnownTokenMap = Map<string, TokenInfo>;
 
