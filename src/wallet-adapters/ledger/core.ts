@@ -1,7 +1,7 @@
 import type Transport from "@ledgerhq/hw-transport";
-import type { Transaction } from "@solana/web3.js";
+import type { Transaction } from "@safecoin/web3.js";
 
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 
 const INS_GET_PUBKEY = 0x05;
 const INS_SIGN_MESSAGE = 0x06;
