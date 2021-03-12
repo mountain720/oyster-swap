@@ -1,4 +1,4 @@
-import { AccountInfo, PublicKey } from "@solana/web3.js";
+import { AccountInfo, PublicKey } from "@safecoin/web3.js";
 import { TokenAccount } from "./account";
 
 export const DEFAULT_DENOMINATOR = 10_000;
