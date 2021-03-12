@@ -7,9 +7,9 @@ import React, {
 } from "react";
 import { useConnection } from "./connection";
 import { useWallet } from "../context/wallet";
-import { AccountInfo, Connection, PublicKey } from "@solana/web3.js";
+import { AccountInfo, Connection, PublicKey } from "@safecoin/web3.js";
 import { programIds, SWAP_HOST_FEE_ADDRESS, WRAPPED_SOL_MINT } from "./ids";
-import { AccountLayout, u64, MintInfo, MintLayout } from "@solana/spl-token";
+import { AccountLayout, u64, MintInfo, MintLayout } from "@safecoin/spl-token";
 import { usePools } from "./pools";
 import { TokenAccount, PoolInfo } from "./../models";
 import { notify } from "./notifications";
