@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "antd";
 import { shortenAddress } from "./../utils/utils";
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 
 export const ExplorerLink = (props: {
   address: string | PublicKey;
@@ -25,7 +25,7 @@ export const ExplorerLink = (props: {
 
   return (
     <a
-      href={`https://explorer.solana.com/${type}/${address}`}
+      href={`https://explorer.safecoins.org/${type}/${address}`}
       // eslint-disable-next-line react/jsx-no-target-blank
       target="_blank"
       title={address}
