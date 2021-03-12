@@ -1,9 +1,9 @@
-import { Numberu64 } from "@solana/spl-token-swap";
-import { PublicKey, Account, TransactionInstruction } from "@solana/web3.js";
+import { Numberu64 } from "@safecoin/spl-token-swap";
+import { PublicKey, Account, TransactionInstruction } from "@safecoin/web3.js";
 import * as BufferLayout from "buffer-layout";
 import { CurveType, PoolConfig } from "./pool";
 
-export { TokenSwap } from "@solana/spl-token-swap";
+export { TokenSwap } from "@safecoin/spl-token-swap";
 
 /**
  * Layout for a public key
