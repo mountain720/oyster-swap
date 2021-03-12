@@ -181,7 +181,7 @@ export const MigrationModal = () => {
       ) : (
         <>
           <p>
-            You are identified as liquidity provider that used v1 of Serum Swap.
+            You are identified as liquidity provider that used v1 of SafeSwap.
           </p>
           <p>
             Please click migrate button to move to new version of the contract
