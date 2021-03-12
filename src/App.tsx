@@ -9,7 +9,7 @@ function App() {
       <Routes />
       <div className="social-buttons">
         <GitHubButton
-          href="https://github.com/project-serum/oyster-swap"
+          href="https://github.com/Fair-Exchange/oyster-swap"
           data-color-scheme="no-preference: light; light: light; dark: light;"
           data-icon="octicon-star"
           data-size="large"
@@ -19,10 +19,10 @@ function App() {
           Star
         </GitHubButton>
         <GitHubButton
-          href="https://github.com/project-serum/oyster-swap/fork"
+          href="https://github.com/Fair-Exchange/oyster-swap/fork"
           data-color-scheme="no-preference: light; light: light; dark: light;"
           data-size="large"
-          aria-label="Fork project-serum/oyster-swap on GitHub"
+          aria-label="Fork Fair-Exchange/oyster-swap on GitHub"
         >
           Fork
         </GitHubButton>
